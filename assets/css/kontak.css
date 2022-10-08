@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #FFD124;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #0093AB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.navbar-list li a {
+    padding: 5px;
+}
+
+.navbar-list li a:hover {
+    color: tomato;
+    transition: all 0.5s ease 0s;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 5px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.dropbtn:hover {
+    color: tomato;
+    transition: all 0.5s ease 0s;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: tomato;
+    background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* STYLING DISINI UNTUK CONTENT */
+
+.title h1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+..contact-form-wrapper{
+	background: #1FA2FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*height: 100vh;*/
+	padding: 100px 0;
+}
+.contact-form{
+	max-width: 700px;
+	background: #fff;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+.contact-form h2{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.single-form{
+	margin-bottom: 20px;
+}
+.single-form:nth-child(1){
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+}
+.single-form:nth-child(2){
+	width: 48%;
+	margin-left: 2%;
+	float: left;
+}
+.single-form label{
+	display: block;
+	margin-bottom: 10px;
+}
+.single-form input, .single-form textarea{
+	width: 100%;
+	padding: 12px;
+	border-radius: 4px;
+	border: 1px solid #333;
+}
+.single-form textarea{
+	min-height: 150px;
+}
+.btn-submit{
+	padding: 12px 30px;
+	color: #fff;
+	border-radius: 4px;
+	border: 0;
+	text-transform: uppercase;
+	cursor: pointer;
+	background: #FFD124;
+
+}
+.btn-submit:hover{
+	background: #FFD124;
+}
+
+@media(max-width: 767px){
+	.single-form:nth-child(1){
+		width: 100%;
+		margin-right: 0;
+	}
+	.single-form:nth-child(2){
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+
+@media screen and (min-width: 350px) {
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+
+.footer {
+    margin-top: 60px;
+    background-color: #009578;
+    height: 55vh;
+}
+
+.content-footer {
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.list-footer {
+    margin-right: 100px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.logo-footer {
+    float: left;
+}
+
+.logo-footer img {
+    margin-top: 5px;
+    margin-left: 125px;
+    margin-right: 125px;
+    width: 125px;
+}
+
+.foot-list {
+    margin-top: 20px;
+}
+
+.foot-list li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.foot-list a:hover {
+    color: #FFD124;
+    transition: all 0.5s ease 0s;
+}
+
+.list-footer,
+a,
+.list-footer2 {
+    color: #ffffff;
+}
+
+.list-footer2 {
+    float: left;
+    margin-right: 100px;
+}
+
+.foot-list2 {
+    margin-top: 20px;
+}
+
+.foot-list2 li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.foot-list2 li a i {
+    margin: 0px 10px 0px 0px;
+}
+
+.foot-list2 a:hover {
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
+}
+
+.icon {
+    padding: 2px;
+    float: left;
+    font-size: 35px;
+}
+
+.icon:hover {
+    background-color: #FFD124;
+    border-radius: 8px;
+    padding: 2px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.copy {
+    clear: both;
+    color: #eaeaeacc;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    float: inline-start;
+    cursor: pointer;
+}
+
+.copy a {
+    color: #eaeaeacc;
+}
+
+.copy:hover {
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
+}
+
+.copy a:hover {
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
+}
+
+.footer-mobile {
+    padding: 10px;
+    background-color: #009578;
+}
+
+.copy-mobile {
+    clear: both;
+    color: #eaeaeacc;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    margin-left: auto;
+}
+
+.copy-mobile a {
+    color: #eaeaeacc;
+}
+
+.copy-mobile:hover {
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
+}
+
+.copy-mobile a:hover {
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
+}
+
+.fa-heart {
+    color: red;
+}
+
+@media screen and (min-width: 860px) {
+
+    .footer-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    #contents {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .tabs {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .tabs__content {
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        background-color: #009578;
+        height: 100vh;
+    }
+}
